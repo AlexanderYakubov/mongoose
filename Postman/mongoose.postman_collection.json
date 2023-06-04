@@ -1,0 +1,299 @@
+{
+	"info": {
+		"_postman_id": "2437ebf1-70c4-4ae6-becf-e9cde9b018c6",
+		"name": "mongoose",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27561029",
+		"_collection_link": "https://interstellar-space-960375.postman.co/workspace/Team-Workspace~246dadad-2721-4c54-8d91-e3a561eb49f7/collection/27561029-2437ebf1-70c4-4ae6-becf-e9cde9b018c6?action=share&creator=27561029&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/posts/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/posts/",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"posts",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "664"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"298-L2HkTr6ORzLADk6jUF3TNIW+Ek8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 Jun 2023 10:19:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"64772a864f7cd3ffb18585e9\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64772a9a4f7cd3ffb18585ec\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64772ad94f7cd3ffb18585ef\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64772b49644baa542b09a395\",\n        \"name\": \"fake\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64772bbc644baa542b09a397\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64772bc0644baa542b09a399\",\n        \"name\": \"fake\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"64772bc1644baa542b09a39b\",\n        \"name\": \"fake\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"647c5131c43ce5a6ff75aecd\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"647c514cc43ce5a6ff75aed0\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"647c525663d9af80a0bce0b6\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"647c528c63d9af80a0bce0b9\",\n        \"name\": \"alex\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"647c5e00e542091647d0716d\",\n        \"name\": \"123\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"647c5e316133498c34551b06\",\n        \"name\": \"123\",\n        \"text\": \"hello asdasd\",\n        \"__v\": 0\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/posts/647c528c63d9af80a0bce0b9",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"posts",
+								"647c528c63d9af80a0bce0b9"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "56"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"38-45KKTxKI2FLT65eiZA4HwiOWtko\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 Jun 2023 10:20:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_id\": \"647c528c63d9af80a0bce0b9\",\n    \"name\": \"alex\",\n    \"__v\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"alex123\", \"text\":\"newText\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/posts/647c528c63d9af80a0bce0b9",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"647c528c63d9af80a0bce0b9"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"alex123\", \"text\":\"newText\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/posts/647c528c63d9af80a0bce0b9",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"posts",
+								"647c528c63d9af80a0bce0b9"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "76"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4c-8sFnJH27+qk57dbAaPZSkec/3QY\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 Jun 2023 10:22:49 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_id\": \"647c528c63d9af80a0bce0b9\",\n    \"name\": \"alex123\",\n    \"__v\": 0,\n    \"text\": \"newText\"\n}"
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/posts/647c5e00e542091647d0716d",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"posts",
+								"647c5e00e542091647d0716d"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "55"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"37-vPRzhY5hNkVncOL/wEtufbjugR8\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 04 Jun 2023 10:27:17 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_id\": \"647c5e00e542091647d0716d\",\n    \"name\": \"123\",\n    \"__v\": 0\n}"
+				}
+			]
+		}
+	]
+}
